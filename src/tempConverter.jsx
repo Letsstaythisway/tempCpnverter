@@ -32,9 +32,9 @@ const TempConverter = () => {
   };
 
   return (
-    <div className="container ">
+    <div className="container flex flex-col justify-between items-center gap=1">
       <h2 className="mt-30">Temperature Converter</h2>
-      <div className="">
+      <div className="wrapper gap-x-0.5">
         <div className="">
           <div className="">
             <label htmlFor="celsius" className="form-label">
