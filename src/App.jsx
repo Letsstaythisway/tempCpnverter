@@ -5,7 +5,7 @@ import "./App.css";
 import TempConverter from "./tempConverter.jsx";
 
 function App() {
-  return <TempConverter />;
+  return (<TempConverter />), (<TempConverter />);
 }
 
 export default App;
